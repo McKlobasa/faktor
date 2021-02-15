@@ -31,10 +31,10 @@ const client = new net.Socket()
 
 
 const MIDI_DEVICE_NAME = 'UM-ONE'
-const nvgIP = 'viz03'
+const nvgIP = 'localhost'
 const nvgPort = 6100
-const metusPort = 12106
-const metusIP = '193.168.11.22'
+const metusPort = 32106
+const metusIP = '192.168.11.22'
 
 let startData = {}
 let secondData = {}

@@ -6,17 +6,18 @@ import styled from 'styled-components';
 const Input = styled.textarea`
   box-sizing: border-box;
   resize: none;
-  padding: 3px;
+  padding: 20px;
   background-color: white;
-  border: 1px solid lightgrey;
   border-radius: 4px;
-  height: 100%;
+  height: 260px;
+  margin:5px;
   width: 100%;
   color: var(--textColor);
   outline: none;
   font-size: 0.6em;
   &:focus {
-    background-color: lightgrey;
+    border: 13px solid var(--textColor);
+    padding:7px;
   }
 `
 const Label = styled.label`
